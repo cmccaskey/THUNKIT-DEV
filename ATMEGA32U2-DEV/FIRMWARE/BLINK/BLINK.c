@@ -1,5 +1,6 @@
 /*
-atmega16u2
+atmega32u2
+^target mcu^
 */
 #define F_CPU 800000UL //MCU runs at 8MHz
 
