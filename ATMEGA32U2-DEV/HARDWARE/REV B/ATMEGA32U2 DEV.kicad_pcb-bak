@@ -1,11 +1,11 @@
 (kicad_pcb (version 4) (host pcbnew 4.0.5+dfsg1-4)
 
   (general
-    (links 0)
+    (links 72)
     (no_connects 0)
     (area 133.045999 93.358499 164.642001 114.794501)
     (thickness 1.6)
-    (drawings 17)
+    (drawings 18)
     (tracks 269)
     (zones 0)
     (modules 21)
@@ -995,7 +995,7 @@
   )
 
   (module MOD:lightning (layer B.Cu) (tedit 0) (tstamp 5A8633C8)
-    (at 135.636 108.966 270)
+    (at 161.544 110.363 270)
     (fp_text reference G*** (at 0 0 270) (layer B.SilkS) hide
       (effects (font (thickness 0.3)) (justify mirror))
     )
@@ -1026,6 +1026,9 @@
       (xy 0.31437 1.300123) (xy 0.314354 1.28972)) (layer B.SilkS) (width 0.01))
   )
 
+  (gr_text "THUNKIT ELECTRONICS" (at 162.687 97.028 90) (layer B.SilkS) (tstamp 5B4CA8F0)
+    (effects (font (size 0.75 0.75) (thickness 0.15)) (justify left mirror))
+  )
   (gr_line (start 133.096 114.7445) (end 135.636 114.7445) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 133.096 93.4085) (end 133.096 114.7445) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 140.716 93.4085) (end 162.052 93.4085) (layer Edge.Cuts) (width 0.1) (tstamp 59AF16D9))
@@ -1049,10 +1052,10 @@
   (gr_text "3.3V 8MHz \n" (at 151.892 98.298 90) (layer B.SilkS) (tstamp 59A8416D)
     (effects (font (size 1.5 1.5) (thickness 0.375)) (justify left mirror))
   )
-  (gr_text "VIN\n\nGND\n\nPC4\n\nPC5\n\nPC6\n\nPC7\n\nPB7\n\nPB6\n\nPB5\n\nPB4\n\nPB3\n\nPB2\n\n" (at 149.5425 96.3295 90) (layer F.SilkS) (tstamp 59A83FF1)
+  (gr_text "VCC\n\nGND\n\nPC4\n\nPC5\n\nPC6\n\nPC7\n\nPB7\n\nPB6\n\nPB5\n\nPB4\n\nPB3\n\nPB2\n\n" (at 149.5425 96.3295 90) (layer F.SilkS) (tstamp 59A83FF1)
     (effects (font (size 0.75 0.75) (thickness 0.15)) (justify right))
   )
-  (gr_text "VIN\n\nVCC\n\nPC2\n\nPD0\n\nPD1\n\nPD2\n\nPD3\n\nPD4\n\nPD5\n\nPD6\n\nPB0\n\nPB1" (at 148.9075 111.887 90) (layer F.SilkS) (tstamp 59A83FF0)
+  (gr_text "VIN\n\nGND\n\nPC2\n\nPD0\n\nPD1\n\nPD2\n\nPD3\n\nPD4\n\nPD5\n\nPD6\n\nPB0\n\nPB1" (at 148.9075 111.887 90) (layer F.SilkS) (tstamp 59A83FF0)
     (effects (font (size 0.75 0.75) (thickness 0.15)) (justify left))
   )
 

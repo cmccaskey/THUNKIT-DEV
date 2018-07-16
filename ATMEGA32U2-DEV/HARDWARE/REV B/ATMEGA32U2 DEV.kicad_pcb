@@ -5,7 +5,7 @@
     (no_connects 0)
     (area 128.8466 89.653147 167.5874 118.023662)
     (thickness 1.6)
-    (drawings 17)
+    (drawings 18)
     (tracks 269)
     (zones 0)
     (modules 21)
@@ -67,7 +67,7 @@
     (mod_text_width 0.15)
     (pad_size 2.375 1.9)
     (pad_drill 0)
-    (pad_to_mask_clearance 0)
+    (pad_to_mask_clearance 0.05)
     (aux_axis_origin 0 0)
     (visible_elements FFFEFFFF)
     (pcbplotparams
@@ -995,7 +995,7 @@
   )
 
   (module MOD:lightning (layer B.Cu) (tedit 0) (tstamp 5A8633C8)
-    (at 135.636 108.966 270)
+    (at 161.544 110.363 270)
     (fp_text reference G*** (at 0 0 270) (layer B.SilkS) hide
       (effects (font (thickness 0.3)) (justify mirror))
     )
@@ -1026,6 +1026,9 @@
       (xy 0.31437 1.300123) (xy 0.314354 1.28972)) (layer B.SilkS) (width 0.01))
   )
 
+  (gr_text "THUNKIT ELECTRONICS" (at 162.687 97.028 90) (layer B.SilkS) (tstamp 5B4CA8F0)
+    (effects (font (size 0.75 0.75) (thickness 0.15)) (justify left mirror))
+  )
   (gr_line (start 133.096 114.7445) (end 135.636 114.7445) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 133.096 93.4085) (end 133.096 114.7445) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 140.716 93.4085) (end 162.052 93.4085) (layer Edge.Cuts) (width 0.1) (tstamp 59AF16D9))
