@@ -1,3 +1,5 @@
+# Makefile for the ATmega32U2 Development
+
 TARGET = BLINK
 SOURCE = BLINK.c
 
