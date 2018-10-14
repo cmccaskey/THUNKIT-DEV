@@ -22,9 +22,6 @@ SPI visualizer using 8 bit shift registerds and LEDs
 - Only 8 bits. The data line can be connected to either MOSI or MISO.
 - Tested working but labeled to do I2C which is not accurate, it only does SPI
 - KiCAD files reflect the label change without a new revision
-
-## REV E ##
-- Relabeled the board to only show SPI
 | Front | Back|
 | ------------------------------------------ | ----------------------------------------- |
 | ![image goes here](IMAGES/SPI-LED_1.png)  | ![image goes here](IMAGES/SPI-LED_2.png)  |
