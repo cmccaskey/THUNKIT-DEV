@@ -1,6 +1,6 @@
 # About #
 
-SPI visualizer using 8 bit shift registerds and LEDs
+SPI visualizer using 8 bit shift registers and LEDs
 
 # Hardware History #
 
