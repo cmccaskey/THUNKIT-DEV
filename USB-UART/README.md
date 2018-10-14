@@ -13,6 +13,9 @@ This is a FT230X based USB to serial adapter with an integrated 3.3V LDO regulat
 - Parts on both sides
 
 ## REV B ##
+| Front | Back|
+| ------------------------------------------ | ----------------------------------------- |
+| ![image goes here](IMAGES/USB-UART_1.png)  | ![image goes here](IMAGES/USB-UART_2.png)  |
 - Used smaller and cheaper Micro USB connector
 - Parts on only one side for easier assembly
 - Fixed RX TX LED polarity and labeled them
