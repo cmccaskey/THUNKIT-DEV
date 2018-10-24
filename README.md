@@ -1,6 +1,6 @@
 # About #
 
-Thunkit Electronics sells development boards and tools for hobbyists and engineers alike. Available at [thunkitelectronics.com](https://thunkitelectronics.com/category.html?page=development) and [Tindie](https://www.tindie.com/stores/cmccaskey). All designs are open source with schematics, board layouts, code, and BOMs freely available.
+Thunkit Electronics sells development boards and tools for hobbyists and engineers alike. Available at [thunkitelectronics.com](https://thunkitelectronics.com) and [Tindie](https://www.tindie.com/stores/cmccaskey). All designs are open source with schematics, board layouts, code, and BOMs freely available.
 
 ## In This Repository ##
 | ATmega32U2 Development | SPI-LED | USB-UART |
