@@ -1,21 +1,13 @@
 # About #
 
-This is a FT230X based USB to serial adapter with an integrated 3.3V LDO regulator.
+Thunkit Electronics sells electronic kits for hobbyists and engineers alike. Available at [thunkitelectronics.com](https://thunkitelectronics.com/category.html?page=development) and [Tindie](https://www.tindie.com/stores/cmccaskey). All designs are open source with schematics, board layouts, code, and BOMs freely available.
 
-# Hardware History #
+## Description ###
+![image goes here](IMAGES/USB-UART_1.png) <br />
+The USB-UART is a great USB to UART adapter for your electronics projects. It boasts 3.3V only operation with a built in LDO regulator that can output up to 300mA at 3.3V. The built in regulator is a clear advantage over most other FTDI boards that can only output a few mA on the built in voltage regulator. Included on the board is a power LED as well as RX and TX LEDs. The pinout follows the common FTDI cable pinout and a second row of headers allows the board to be stable when plugged into a breadboard. Note: the male headers do not come pre-soldered to the board. Also note that the RX and TX LEDs indicate RX and TX relative to the PC.
 
-## REV A ##
-| Front | Back|
-| ------------------------------------------ | ----------------------------------------- |
-| ![image goes here](IMAGES/REVA_FRONT.png)  | ![image goes here](IMAGES/REVA_BACK.png)  |
-- First Design
-- Used Mini USB connector
-- Parts on both sides
+## Schematic ##
+![image goes here](IMAGES/USB-UART_SCHEM.png)
 
-## REV B ##
-| Front | Back|
-| ------------------------------------------ | ----------------------------------------- |
-| ![image goes here](IMAGES/USB-UART_1.png)  | ![image goes here](IMAGES/USB-UART_2.png)  |
-- Used smaller and cheaper Micro USB connector
-- Parts on only one side for easier assembly
-- Fixed RX TX LED polarity and labeled them
+## Bill of Material ##
+[Available Here](IMAGES/USB-UART_BOM.html)
